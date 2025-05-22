@@ -46,7 +46,7 @@ for row in transpose_obj.get_transposed():
 
 ## RESULT:
 ```
-Thus ,the program verified successfully
+Thus the program verified successfully
 ```
 
 
