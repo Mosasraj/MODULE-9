@@ -34,9 +34,38 @@ To develop a Python class with functions to:
 ---
 
 ## 💻 PROGRAM:
-
-ADD CODE HERE
-
+```
+def create_matrix(n,m):
+    M=[]
+    for i in range(n):
+        row=[]
+        for j in range(m):
+            x=int(input())
+            row.append(x)
+        M.append(row)
+    return M 
+def print_matrix(M):
+    for i in range(len(M)):
+        for j in range(len(M[0])):
+            print(M[i][j],end=' ')
+        print()
+def sort_rows(M):
+    S=[]
+    for i in M:
+        row=sorted(i)
+        S.append(row)
+    return S
+r,c=input().split()
+A=create_matrix(int(r),int(c))
+print_matrix(A)
+print("Resultant Matrix:")
+print_matrix(sort_rows(A))
+```  
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/2909bc52-b894-498b-aaf1-b4cb8f5c8110)
+
 ## RESULT:
+```
+Thus ,the program verified successfully
+```
