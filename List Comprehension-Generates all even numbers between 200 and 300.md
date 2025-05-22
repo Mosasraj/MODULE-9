@@ -20,8 +20,24 @@ To write a Python class-based program that generates all even numbers between 20
 ---
 
 ## 💻 PROGRAM:
-Add Code Here
-
+```
+class evennumber:
+    def __init__(self,start=200,end=300):
+        self.start=start
+        self.end=end
+        self.ans=self.generate()
+    def generate(self):
+        return [num for num in range(self.start,self.end+1) if num%2==0]
+    def display(self):
+        print(self.ans)
+a=evennumber()
+a.display()
+```
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/b1032baf-5c52-4503-b7ed-fe8a7051bdcb)
+
 ## RESULT:
+```
+Thus the program verified successfully
+```
