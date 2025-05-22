@@ -41,5 +41,5 @@ To write a Python program that prints only the diagonal elements of a given matr
 
 ## Result
 ```
-Thus ,the program verified successfully
+Thus the program verified successfully
 ```
